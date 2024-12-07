@@ -1,0 +1,15 @@
+    [package]
+    name = "DecentralizedFileStorage"
+    version = "1.0.0"
+    authors = []
+
+    [addresses]
+    MyModule ='0xdd7bf71f08ad21fb7a2d37836fd7570a8d67f5b807fb7d802e9e714d3bc605ca'
+    [dev-addresses]
+
+    [dependencies.AptosFramework]
+    git = "https://github.com/aptos-labs/aptos-core.git"
+    rev = "mainnet"
+    subdir = "aptos-move/framework/aptos-framework"
+
+    [dev-dependencies]
